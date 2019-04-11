@@ -47,7 +47,7 @@ export default function combineReducers(reducers) {
       const warningMessage = getPossibleUnexpectedStateShapeWarning(state, validReducers, action)
       if (warningMessage) {
         // eslint-disable-next-line no-console
-        console.warn(warningMessage)
+        // console.warn(warningMessage)
       }
     }
 
